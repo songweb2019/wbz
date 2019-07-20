@@ -1,0 +1,42 @@
+/*wbz主页 index.css样式*/
+/*主体*/ 
+#container{ width:90%; height:600px;margin: 0 auto; }
+/*导航栏*/
+/*导航 左 列表*/ 
+#nav{ height:30px;/*border:1px solid #000;*/ }
+#nav ul li{ display:inline;margin-left:8%; }
+#nav ul li a:hover{ color: rgba(37, 18, 17, 0.705); }
+#nav ul li{ position: relative; }
+/*导航 中 搜索框*/
+#nav ul .navseach input{ width: 276px;  }
+#nav ul .navseach img{ margin:-5px; }
+#nav ul .navseach input,button,img{position: relative;}
+/*导航 右 登录|注册|购物车*/
+#nav ul li .navshop{ position:relative;}
+#nav ul li .navshop a{ color:#fff; font-size:12px;}
+#nav ul li .navshop a:hover{color: #a1a1a1;}
+/*导航栏 媒体查询*/
+/*1368px 以上*/
+@media screen and (min-width:1361px){
+    #nav ul li .navshop{ top:-68px;left:85%; }
+ }
+ /*1201-1367 之间*/
+@media screen and  (min-width:1201px) and (max-width:1360px){
+    #nav ul li .navshop{ top:-90px;left:80%;}
+ }
+ /*471-1200px 之间*/
+ @media screen and  (min-width:487px) and (max-width:1200px){
+    #nav ul .navseach input{ margin-left:10%;}  
+    #nav ul li .navshop{top:-90px;left:75%;}
+ }
+ /*470px 以下*/
+ @media screen and  (max-width:486px){
+    #nav ul li { top:40px }
+    #nav ul .navseach input,button,img{ top:-60px; }  
+    #nav ul .navseach img{ margin:-65px; }
+    #nav ul .navseach input{ margin-left:12%; }  
+    #nav ul li .navshop{ top:-130px;left:70%; }
+ }
+ 
+
+

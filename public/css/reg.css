@@ -1,0 +1,21 @@
+/*wbz注册 reg.css样式*/
+#container{
+    height:598px;
+    width:100%;
+}
+#regtop div{
+    text-align: center;
+    font:20px bold;
+    margin:50px 0;
+}
+
+#regtop form ul li{
+    text-align: center;
+    margin:20px 0;
+}
+
+#regtop .regsub{
+    margin-left:50px;
+    width: 180px;
+    border-radius: 5%;
+}

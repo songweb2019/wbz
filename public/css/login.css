@@ -1,0 +1,35 @@
+/*wbz登录 login.css样式*/
+/*主体样式*/
+#container{height:598px;background:url(../img/login/lg_bg.png) no-repeat 70% 25%;
+    background-size:26%;}
+
+/*表格样式*/
+table{ vertical-align:bottom; table-layout:fixed;margin-left:120px;margin-top:120px; }
+table tr td{ height:35px;width: 300px;text-align:center; }
+
+/*表格头 标题 */
+table thead tr td span{ font:20px "微软雅黑"; padding:6px; }
+
+/*表格主体 登录框 登录按钮*/
+table tbody .lgput td input{ width: 250px;height:30px;margin:20px 0px 10px 0px;text-indent:10px;}
+table tbody tr td button{width:60px; margin-right:30px;}
+
+/*表格 脚 hover效果*/
+tfoot tr td a{ font-size:12px; }
+tfoot tr td a:hover{ color:#666; }
+
+/*媒体查询*/
+@media screen and  (max-width:800px) and (min-width:569px){
+    #container {background-size:0px;}
+ }
+ /*568px 以下*/
+ @media screen and  (max-width:568px) and (min-width:508px){
+    #container {background:url(../img/login/lg_bg.png) no-repeat 70% 22%;
+        background-size:35px;}
+ }
+ @media screen and  (max-width:507px){
+    #container {background-size:0px;}
+ }
+
+
+ 

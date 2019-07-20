@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>文宝斋----登录页面</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+<!-- 引入 头 -->
+<header><iframe src="header.html" frameborder="0" scrolling="no" class="myheader"></iframe></header>
+<!-- 引入 头 -->
+<!-- 主体 -->
+<div id="container">
+	   <!-- 登录界面 -->
+	   <table>
+		 <!-- 登陆标题 -->
+		 <thead>
+			 <tr>
+				 <td>
+					 <a href="index.html" title="文宝斋"><img src="./img/login/lghome.png"></a><span>登录</span>															
+				 </td>
+			 </tr>
+		 </thead>
+		 <!-- 登录主体  -->
+		  <tbody>
+			  <tr class="lgput">
+			      <td>	
+				      <input type="text" id="uname" placeholder="账号/邮箱/手机号">   
+			      </td>
+			  </tr>
+			  <tr class="lgput">
+				  <td>	
+				      <input type="password" id="upwd" 	placeholder="请输入正确的密码">
+				  </td>
+			  </tr>
+			  <tr>
+				  <td> 	
+					 <button onclick="login()">登录</button>
+						 <input type="checkbox" id="auto">
+					     <label for="auto">自动登录</label>  	   						 
+				  </td>
+			  </tr>
+		  </tbody>
+		  <!-- 脚 立即注册 忘记密码 -->
+		  <tfoot> 
+			  <tr>
+				 <td>
+					&gt; <a href="reg.html" title="账号注册...">注册账号</a>
+					&gt; <a href="findreg.html" title="忘记密码...">忘记密码</a>
+				</td> 
+			  </tr>		   
+			</tfoot>
+	   </table>
+   </div>
+</div>
+<!-- 引入 脚 -->
+<footer><iframe src="footer.html" frameborder="0" scrolling="no" class="myfooter"></iframe></footer>	
+<!-- 引入 脚 -->
+<script>
+   //AJAX login请求
+   function login(){
+	   //1.创建xhr
+	   //4.4.绑定监听
+	   //2.2.创建请求
+	   //3.发送请求
+   }
+</script>
+</body>
+</html>

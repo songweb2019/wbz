@@ -1,0 +1,26 @@
+/*footer css样式*/
+/* 宽高 渐变 居中 */
+#comft{height:130px;}
+#comft span{
+    color:#fff;
+    margin-left:5%; 
+}
+#comft ul li{
+    display:inline; 
+    position: relative;
+    top:25px;
+    margin-left:5%;
+ }
+ #comft p{
+    color:#ADADAD;
+    font-size:14px;
+    margin-top:35px;
+    text-align: center; 
+    margin-right:5%;
+ }
+ /*媒体查询*/
+ @media screen and (min-width:953px) {
+    #comft p{
+        margin-top:56px; 
+    }
+ }

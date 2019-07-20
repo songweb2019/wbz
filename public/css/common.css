@@ -1,0 +1,31 @@
+/*通用 common.css样式*/
+*{ margin:0;padding:0;font-size:16px; }
+body{ 
+   background: #e0e0e0;
+   display:flex;
+   flex-flow:column nowrap;
+   overflow-x: hidden;
+}
+a{  text-decoration:none; }
+a:link{ color:#000; }
+a:visited{ color:#000;}
+ul{ list-style:none; }
+
+/*头 脚 通用样式*/
+/*渐变*/
+#comhd,#comft{width:100%;background:linear-gradient(to bottom,#111,#222,#333);}
+/*链接伪类*/
+#comhd a:visited,#comft a:visited{color:rgb(140,140,140);}
+#comhd a:hover,#comft a:hover{color:#fff;}
+
+/*其他页面 引入 头脚   媒体查询*/
+.myheader,.myfooter{ width: 100%; }
+.myfooter{margin-bottom:-5px;}
+@media screen and (max-width:991px) {
+   .myheader{ height:4rem;}
+   .myfooter{ height:8rem;}
+}
+@media screen and (min-width:992px) {
+   .myheader{ height:4rem;}
+   .myfooter{ height:8rem;}
+}
